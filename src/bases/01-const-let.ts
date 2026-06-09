@@ -1,5 +1,5 @@
-// * Unless you declare the var type explicit, the data type is the value
-// * If you need to create a var, if it's value never changes create it as a const, otherwise create it as a let
+// * Unless you declare the var type explicit when you're using const, the data type is the value
+// * If you need to create a var, if its value never changes create it as a const, otherwise create it as a let
 const firstName = "René";
 const lastName: string = "Rivas";
 
