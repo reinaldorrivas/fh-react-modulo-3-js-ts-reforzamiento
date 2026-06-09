@@ -6,8 +6,7 @@ const lastName: string = "Rivas";
 let diceNumber = 5;
 diceNumber = 3;
 
-
 // * When you're using the chaining operator, you need to take care about any var type change
-const containsLetterH = lastName.toLowerCase().trim().includes("H");
+const containsLetterH = lastName.toLowerCase().trim().includes('H');
 
 console.log({ firstName, lastName, containsLetterH, diceNumber });
