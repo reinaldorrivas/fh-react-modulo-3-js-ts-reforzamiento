@@ -1,4 +1,6 @@
-import './bases/01-const-let';
+// import './bases/01-const-let';
+import './bases/02-template-strings';
+
 import './style.css';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = /* html */ `
