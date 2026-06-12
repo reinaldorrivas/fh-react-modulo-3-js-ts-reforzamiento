@@ -1,8 +1,3 @@
-interface Address {
-  postalCode: string;
-  city: string;
-}
-
 interface Hero {
   firstName: string;
   lastName: string;
@@ -10,6 +5,12 @@ interface Hero {
   address: Address;
 }
 
+interface Address {
+  postalCode: string;
+  city: string;
+}
+
+// * Si haces <<ctrl + .>> encima de una variable que está asociada a una interfaz, te da la opción de agregar las propiedades faltantes.
 const ironman: Hero = {
   firstName: 'Tony',
   lastName: 'Stark',
