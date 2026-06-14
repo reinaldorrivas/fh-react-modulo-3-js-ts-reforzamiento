@@ -10,7 +10,10 @@ interface Address {
   city: string;
 }
 
-// * Si haces <<ctrl + .>> encima de una variable que está asociada a una interfaz, te da la opción de agregar las propiedades faltantes.
+/* 
+ * Si haces <<ctrl + .>> encima de un objeto que está asociada a una interfaz, te da la opción de 
+ * agregar las propiedades faltantes. 
+ */
 const ironman: Hero = {
   firstName: 'Tony',
   lastName: 'Stark',
