@@ -1,6 +1,7 @@
 // import './bases/01-const-let';
 // import './bases/02-template-strings';
-import './bases/03-object-literals';
+// import './bases/03-object-literals';
+import './bases/04-arrays';
 
 import './style.css';
 
