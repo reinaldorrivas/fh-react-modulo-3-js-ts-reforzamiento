@@ -11,8 +11,8 @@ interface Address {
 }
 
 /* 
- * Si haces <<ctrl + .>> encima de un objeto que está asociada a una interfaz, te da la opción de 
- * agregar las propiedades faltantes. 
+ * If you do <<ctrl + .>> in an object variable linked to an interface, it gives you the option
+ * to add the missing properties. 
  */
 const ironman: Hero = {
   firstName: 'Tony',

@@ -1,15 +1,14 @@
-
-// * Esto es muy raro, pero es posible de controlar con TypeScript datos heterogéneos dentro de los arrays.
+// * This is rare to see, but is possible to control with TypeScript heterogenous values in arrays.
 const myFirstArray: (string | number)[] = [1, 2, 3, '4'];
-// * Esto es la norma porque los arrays son estructuras homogéneas de datos relacionados.
+// * This is the norm because arrays manages homogeneous structures of related data.
 const mySecondArray: number[] = [1, 2, 3, 4];
 
 myFirstArray.push(5, '6');
 mySecondArray.push(5, 6);
 
 /* 
- * Los arrays en JavaScript son objetos, la mejor manera de copiarlos 
- * es haciendo una copia profunda.
+ * Arrays in JavaScript are objects, the best way to copy them
+ * is doing a deep clone.
  */
 const myThirdArray: number[] = structuredClone(mySecondArray);
 
